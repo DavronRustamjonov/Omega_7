@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title>Omega</title>
 </head>
 <body>
@@ -20,9 +20,17 @@
             <li class="header__item"><a  class="header__link" href="#"><b>Demos</b></a></li>
             <li class="header__item"><a  class="header__link" href="#"><b>Pages</b></a></li>
             <li class="header__item"><a  class="header__link" href="#"><b>Support</b></a></li>
-            <li class="header__item"><button class="header__btn"><b>Get this app</b></button></li>
+            <li class="header__next-item"><button class="header__btn"><b>Get this app</b></button></li>
          </ul>
+     <i id="header__menu" class="fa fa-align-justify"></i>
         </div>
+    </div>
+    <div class="modal">
+      <button class="close"> <i id="close" class="fa fa-close"></i></button><br><br>
+      <li class="header__icon-item"><a  class="header__icon-link"  href="#"><b>Demos</b></a></li><br><br>
+      <li class="header__icon-item"><a  class="header__icon-link"  href="#"><b>Pages</b></a></li><br><br>
+      <li class="header__icon-item"><a  class="header__icon-link"  href="#"><b>Support</b></a></li><br><br>
+      
     </div>
 
 
@@ -30,14 +38,14 @@
 <div class="hero">
     <div class="container hero__container">
       <ul class="hero__list">
-        <img src="./images/hero__img.svg" alt="">
+        <img class="hero__next-img" src="./images/hero__img.svg" alt="">
       </ul>
 
       <ul class="hero__list">
         <li class="hero__item"><b><p class="hero__lead">Travel the world & meet new friends.</p></b></li>
         <li class="hero__item"><b><p class="hero__text">Create custom landing pages with Omega that convert more visitors than any website. With lots of unique blocks, you can easily build a page without coding.</p></b></li>
         <li class="hero__item">
-            <form action="#" class="hero__form">
+            <form  action="#" class="hero__form">
                 <img class="hero__img" src="./images/hero__img-email.svg" alt="">
                 <input type="email" class="hero__input" placeholder="Email address">
                 <input type="submit" class="hero__button" value="I want to join">
@@ -82,14 +90,14 @@
     <li class="service__item"><p class="service__lead">Making trip is fun. Travel with friends.</p></li>
     <li class="service__item"><p class="service__text">Create custom landing pages with Omega that converts more visitors than any website. With lots of unique blocks, you can easily build a page without coding.</p></li>
     <li class="service__next-item">
-      <img src="./images/service__img1.svg" alt="">
-      <span>
+      <img class="service__img" src="./images/service__img1.svg" alt="">
+      <span class="service__span">
       <p class="service__next-lead">Find your trip partner</p>
       <p class="service__next-text">With lots of unique blocks, you can easily build a page without coding. Build your next landing page quickly.</p>
     </span>
     </li>
     <li class="service__next-item">
-      <img src="./images/service__img2.svg" alt="">
+      <img class="service__img" src="./images/service__img2.svg" alt="">
       <span>
       <p class="service__next-lead">Find your trip partner</p>
       <p class="service__next-text">With lots of unique blocks, you can easily build a page without coding. Build your next landing page quickly.</p>
@@ -99,7 +107,7 @@
 
   </ul>
   <ul class="service__list">
-    <img src="./images/service__img-telephone.svg" alt="telephone">
+    <img class="service__next-img" src="./images/service__img-telephone.svg" alt="telephone">
   </ul>
   </div></b>
  </div>
@@ -110,7 +118,7 @@
       <li class="about__item"><img src="./images/about__img1.svg" alt="human"></li>
       <li  class="about__next-item"><img src="./images/about__img2.svg" alt="human" ></li>
       <li class="about__thrid-item"><img src="./images/about__img3.svg" alt="human"></li>
-      <li class="about__-item"><img src="./images/about__img4.svg" alt="human"></li>
+      <li class="about__item"><img src="./images/about__img4.svg" alt="human"></li>
     </ul>
     <ul class="about__next-list">
       <h1 class="about__title">
@@ -128,7 +136,7 @@
     <li class="app__item"><p class="app__text"><b>Create custom landing pages with Omega that converts more visitors than any website. With lots of unique blocks, you can easily build a page without coding.</b></p></li>
     <li class="app__item"><button class="app__btn"><b>Get this app</b></button></li>
   </ul>
-    <ul class="app__list"><img src="./images/app__img.svg" alt=""></ul>
+    <ul class="app__list"><img class="app__img" src="./images/app__img.svg" alt=""></ul>
   </div>
 </div>
 
@@ -136,7 +144,7 @@
 
 <div class="input" >
   <div class="container input__container">
-    <iframe width="1140" height="693" src="https://www.youtube.com/embed/pBy1zgt0XPc?si=bzTACevMeRqQeNIR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe class="input__iframe" width="1140" height="693" src="https://www.youtube.com/embed/pBy1zgt0XPc?si=bzTACevMeRqQeNIR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
 </div>
 <!-- ==========================FOOTER================================================ -->
@@ -146,7 +154,7 @@
     <p class="footer__text">Create custom landing pages with Omega that converts more visitors than any website.</p>
    <span class="footer__span"> 
    <li> <img class="footer__btn" src="./images/footer__img-App Store.svg" alt="App Store">  </li>
-   <li> <img class="footer__btn" src="./images/footer__img-Play Store.svg" alt="Play Store"></li>
+   <li> <img class="footer__next-btn" src="./images/footer__img-Play Store.svg" alt="Play Store"></li>
   </span>
 <hr class="footer__hr">
 
@@ -162,8 +170,9 @@
     <li class="footer__item"><a href="#" class="footer__link">Terms and Conditions</a></li>
   </ul>
 </div>
+
   </div>
 </div>
-
+<script src="./main.js"></script>
 </body>
 </html>
